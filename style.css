@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Lemon|Slabo+27px&display=swap');
+.jaca-1-hex { color: #1B3240; }
+.jaca-2-hex { color: #0F808C; }
+.jaca-3-hex { color: #38A67E; }
+.jaca-4-hex { color: #6AD97B; }
+.jaca-5-hex { color: #BCF26B; }
+.jaca-6-hex { color: #F9F0E4;}
+
+body{
+    background:#F9F0E4;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: helvetica;
+    font-family: "Slabo 27px";
+}
+p{
+    size: 3vw;
+    line-height: 2rem;
+}
+
+
+h1{
+    color: #1B3240;
+    font-size: 3vw;
+    font-family: "Lemon", cursive;
+    text-align: center; 
+}
+.joblisting{
+    color: #1B3240;
+}
+li{
+    padding: 10px;
+    position: center;
+}
+h2{
+    size: 3vw;
+    font-family: "Bebas";
+    font-kerning: 2;
+
+}
+.introduction{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.about{
+    display: inline-flex;
+    flex-direction: row;
+    size: 3vw;
+}
+.portrait{
+    height: 100%;
+    width:40%;
+    padding: 20px;
+}
+.jobitem{
+    padding-bottom: 10px;
+}
