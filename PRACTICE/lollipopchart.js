@@ -84,20 +84,20 @@ d3.csv("data.csv", rowConverter)
                 //takes the word and gives it a pixel value and assigns it a location along the y axis
                 .attr("cy", d => yScale(d.genre))
                 .attr("cx", d => xScale(d.votes))
-                .attr("r", 4)
+                .attr("r", 8)
                 .attr("fill", "#bada");
-        var stick = svg.selectAll("path")
+
+                var bars = svg.selectAll("rect")
                 //assigning the data to the rectangles that we have yet to actually draw
                     .data(data)
                     //entering into the rectangles to add data to them
                     .enter()
-                        .append("path")
+                        .append("rect")
                         //takes the word and gives it a pixel value and assigns it a location along the y axis
                         .attr("y", d => yScale(d.genre))
-                       // .attr("width", d => xScale(d.votes))
-                        .attr("height", yScale.bandwidth())
-                        .attr("fill", "#bada")
-                        .attr("stroke", "10");
+                        .attr("width", d => xScale(d.votes))
+                        .attr("height", "2")
+                        .attr("fill", "#bada");
 
         var yAxis = svg.append("g")
             .attr("class", "y axis")
