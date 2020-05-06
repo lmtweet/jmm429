@@ -14,9 +14,7 @@ h1{
     position: center;
     font-display: center;
 }
-a{
-    text-align: center;
-}
+
 
 #title{
     width: .3;
@@ -50,6 +48,7 @@ figure{
 #introtext{
     display:flex;
     size: 20px;
+    padding: 20px;
 }
 
 .body{
@@ -105,8 +104,20 @@ a.swing{
     flex-direction: row;
 }
 
-#demographics{
+#demographics {
     padding: 20px;
+}
+
+#electiondata{
+    padding: 20px;
+}
+
+.electionresults{
+    padding:20px;
+}
+
+.results{
+    padding:20px;
 }
 
 
@@ -118,27 +129,46 @@ a.swing{
     width: 100%;
 }
 
-.ageGraph{
-    width:100%;
-    display: grid;
-    grid-template-columns: 40% 20% 40%;
-    grid-gap:1em;
-    position:relative;
-}
 .ageDemo{
-    height: 400px;
+  
 }
 .raceStates{
     display: grid;
     grid-template-columns: 80% 10%;
     grid-gap: 10px;
 }
-.racelegend{
-    height: 400px;
-    position: absolute;
-    padding: 10px;
 
+
+.mapcontainer{
+    position: sticky;
+    height: 200%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #F9F0E4;
+    opacity: 1;
+    transition: ease-in-out 1s;
+  
+  }
+  #Scrolly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0rem, 1rem;
+    text-justify: left;
 }
+.Scrollyside{
+    padding-right:2rem;
+    padding-top:2rem;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+#Scrolly > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
 .race{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -155,6 +185,7 @@ a.swing{
     text-align: center;
     padding-bottom: 20px;
     text-transform: uppercase;
+    padding-left: 20px;
 }
 
 
@@ -273,5 +304,9 @@ a.swing{
 
 #politics{
 
+    
+}
+
+#conclusion{
     padding: 20px;
 }
