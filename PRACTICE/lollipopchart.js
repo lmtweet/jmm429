@@ -80,12 +80,7 @@ d3.csv("data.csv", rowConverter)
             .data(data)
             //entering into the rectangles to add data to them
             .enter()
-                .append("circle")
-                //takes the word and gives it a pixel value and assigns it a location along the y axis
-                .attr("cy", d => yScale(d.genre))
-                .attr("cx", d => xScale(d.votes))
-                .attr("r", 8)
-                .attr("fill", "#bada");
+                
 
                 var bars = svg.selectAll("rect")
                 //assigning the data to the rectangles that we have yet to actually draw
@@ -96,7 +91,7 @@ d3.csv("data.csv", rowConverter)
                         //takes the word and gives it a pixel value and assigns it a location along the y axis
                         .attr("y", d => yScale(d.genre))
                         .attr("width", d => xScale(d.votes))
-                        .attr("height", "2")
+                        .attr("height", "10")
                         .attr("fill", "#bada");
 
         var yAxis = svg.append("g")

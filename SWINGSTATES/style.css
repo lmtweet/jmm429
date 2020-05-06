@@ -1,0 +1,277 @@
+body{
+    padding: 5% 10%;
+    font-family: 'Numans', sans-serif;
+    font-size: 2vw;
+    
+}
+div{
+    padding-bottom: 20px;
+
+}
+h1{
+    font-family: 'Numans', sans-serif;;
+    font-size: 6vw;
+    position: center;
+    font-display: center;
+}
+a{
+    text-align: center;
+}
+
+#title{
+    width: .3;
+    padding-right: 20px;
+}
+
+div#intro{
+    height: 100%;
+    display: flex;
+}
+
+#introcontent{
+    display:flex;
+    flex-direction: column;
+}
+
+figure{
+    display: -moz-inline-stack;
+}
+#electiongif{
+    padding: 3%;
+   
+}
+
+#presidentgif{
+    width:600px;
+    
+}
+
+
+#introtext{
+    display:flex;
+    size: 20px;
+}
+
+.body{
+   font-size: 20px;
+   font-display: center;
+   position: center;
+   font-family: 'Numans', sans-serif;
+   z-index: 1;
+
+}
+
+#history{
+
+}
+
+#recentSenate{
+    display: flex;
+    flex-direction:row;
+}
+
+#introswing{
+    display: flex;
+    flex-direction: column;
+}
+
+#swing{
+    width: 60%;
+    z-index: +1;
+}
+
+a.swing{
+    position: fixed;
+    font-family: 'Numans', sans-serif;
+    font-size: 3vw;
+    z-index: 1;
+
+}
+.animation{
+    width: 110;
+}
+
+#SwingCompressed{
+    opacity: 0.5;
+}
+#currentelection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+#stateAge{
+    display: flex;
+    flex-direction: row;
+}
+
+#demographics{
+    padding: 20px;
+}
+
+
+.highlighted{
+    background-color: #ED6B21;
+    color: white;
+}
+.changed{
+    width: 100%;
+}
+
+.ageGraph{
+    width:100%;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-gap:1em;
+    position:relative;
+}
+.ageDemo{
+    height: 400px;
+}
+.raceStates{
+    display: grid;
+    grid-template-columns: 80% 10%;
+    grid-gap: 10px;
+}
+.racelegend{
+    height: 400px;
+    position: absolute;
+    padding: 10px;
+
+}
+.race{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1em;
+    padding-top: 50px;
+    position: relative;
+}
+
+
+.statelabel{
+    kerning: 1em;
+    letter-spacing: 0.5em;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.arizonaresults{
+    font-size: 1vw;
+    width:100%;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+.coloradoresults{
+    font-size: 1vw;
+    width:100%;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+.floridaresults{
+    font-size: 1vw;
+    width:100%;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+.georgiaresults{
+    font-size: 1vw;
+    width:100%;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+
+.georgia{
+    height:120px;
+}
+
+.iowaresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+
+.iowa{
+    height:90px;
+}
+
+.maine{
+    height:160px;
+}
+.maineresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+
+.michigan{
+    height:145px;
+}
+.michiganresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+.northcarolina{
+    height:80px;
+}
+.northcarolinaresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+.ohio{
+    height:145px;
+}
+.ohioresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+
+.pennsylvania{
+    height:80px;
+}
+.pennsylvaniaresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+
+.wisconsin{
+    height:145px;
+}
+.wisconsinresults{
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    padding-top: 20px;
+
+}
+
+#politics{
+
+    padding: 20px;
+}
