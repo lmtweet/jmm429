@@ -120,13 +120,16 @@ a.swing{
     padding:20px;
 }
 
-
 .highlighted{
-    background-color: #ED6B21;
+    background-color: #0F2639;
     color: white;
 }
 .changed{
     width: 100%;
+    position: relative;
+}
+.congress{
+    margin-top: 20px;
 }
 
 .ageDemo{
@@ -134,8 +137,9 @@ a.swing{
 }
 .raceStates{
     display: grid;
-    grid-template-columns: 80% 10%;
+    grid-template-columns: 80% 20%;
     grid-gap: 10px;
+
 }
 
 
@@ -168,15 +172,47 @@ a.swing{
     -ms-flex: 1;
     flex: 1;
 }
+#introrace{
+    padding-bottom: 3em;
+}
+.graphlabel{
+    kerning: 1em;
+    letter-spacing: 0.25em;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 2vw;
+    z-index: -1;
+    width: 80%;
+}
+
 
 .race{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-gap: 1em;
-    padding-top: 50px;
+    grid-gap: 3em;
+    column-gap: 2em;
+    row-gap: 3px ;
     position: relative;
+    width: 80%;
+
 }
 
+#raceLegend{
+    position:sticky;
+    top: 20px;
+    height: 50%;
+}
+
+.state{
+    font-size: 1vw;
+    letter-spacing: 0.25em;
+    text-align: center;
+    margin: 1;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    position:center;
+}
 
 .statelabel{
     kerning: 1em;
@@ -202,7 +238,7 @@ a.swing{
     width:100%;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 .floridaresults{
@@ -210,7 +246,7 @@ a.swing{
     width:100%;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 .georgiaresults{
@@ -218,7 +254,7 @@ a.swing{
     width:100%;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 
@@ -230,7 +266,7 @@ a.swing{
     font-size: 1vw;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 
@@ -245,7 +281,7 @@ a.swing{
     font-size: 1vw;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 
@@ -256,17 +292,17 @@ a.swing{
     font-size: 1vw;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 .northcarolina{
-    height:80px;
+    height: 120px;
 }
 .northcarolinaresults{
     font-size: 1vw;
     display: grid;
-    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-top: 40px;
 
 }
 .ohio{
@@ -276,18 +312,18 @@ a.swing{
     font-size: 1vw;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 
 .pennsylvania{
-    height:80px;
+    height:110px;
 }
 .pennsylvaniaresults{
     font-size: 1vw;
     display: grid;
-    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-top: 40px;
 
 }
 
@@ -298,12 +334,12 @@ a.swing{
     font-size: 1vw;
     display: grid;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    padding-top: 20px;
+    padding-top: 40px;
 
 }
 
-#politics{
-
+.sources{
+    font-size: 10px;
     
 }
 

@@ -1,0 +1,11 @@
+<svg id="graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1035 100">
+    <defs>
+    <style>
+        .cls-1{fill:#0f2639;}.cls-2{fill:#86b7d1;}.cls-3{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3px;}.cls-4{font-size:20px;font-family:Numans-Regular, Numans;}
+    </style>
+    </defs>
+    <path data-aos="fade-right" id="point-0-0" class="cls-1" d="M10,47.52H771.25V82.36H10Z"/>
+    <path data-aos="fade-left" id="point-1-0" class="cls-2" d="M771.25,47.52H1025V82.36H771.25Z"/>
+    <line class="cls-3" x1="517.5" y1="92.2" x2="517.5" y2="7.24"/>
+    <text class="cls-4" transform="translate(504.86 114.17)">50</text>
+</svg>
